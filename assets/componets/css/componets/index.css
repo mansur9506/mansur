@@ -1,0 +1,32 @@
+@import url(/assets/componets/css/componets/header.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet');
+@import url(/assets/componets/css/componets/menu.css);
+@import url(/assets/componets/css/componets/hero-block.css);
+@import url(/assets/componets/css/componets/products-block.css);
+*{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+html{
+    scroll-behavior: smooth;
+}
+h1,h2{
+    font-weight: 700;
+
+}
+.container{
+    width:80%;
+    margin: 0 auto!important;
+}
+section{
+    padding: 75px 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+@media (max-width: 768px){
+    .container{
+        width: 50;
+    }
+}
